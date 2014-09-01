@@ -1,0 +1,13 @@
+diff --git a/arch/arm/mach-msm/acpuclock-8226.c b/arch/arm/mach-msm/acpuclock-8226.c
+index d42e798..a81bb40 100644
+--- a/arch/arm/mach-msm/acpuclock-8226.c
++++ b/arch/arm/mach-msm/acpuclock-8226.c
+@@ -117,7 +117,7 @@ static struct clkctl_acpu_speed acpu_freq_tbl_8610[] = {
+ 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
+ 	{ 1,  787200, ACPUPLL, 5, 0,   CPR_CORNER_4, 0, 4 },
+ 	{ 1,  998400, ACPUPLL, 5, 0,   CPR_CORNER_12,  0, 5 },
+-	{ 1, 1190400, ACPUPLL, 5, 0,   CPR_CORNER_12,  0, 5 },
++//	{ 1, 1190400, ACPUPLL, 5, 0,   CPR_CORNER_12,  0, 5 },
+ 	{ 0 }
+ };
+ 
